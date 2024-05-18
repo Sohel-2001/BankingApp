@@ -1,0 +1,35 @@
+.loan-rules-outer{
+    padding: 0 2rem;
+    height: 80vh;
+}
+
+.loan-rules{
+    background-color: aquamarine;
+    /* height: 10rem; */
+    width: 100%;
+    border: 1px solid grey;
+    border-radius: 30px;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.3rem;
+}
+
+.loan-rules h1{
+    display: flex;
+    gap: 1rem;
+    font-weight: 800;
+    font-size: 3rem;
+    /* text-decoration: underline; */
+}
+
+.conditions{
+    display: flex;
+    flex-direction: column;
+    padding-left: 3rem;
+}
+
+.conditions p {
+    font-size: 1.7rem;
+    font-weight: 500;
+}

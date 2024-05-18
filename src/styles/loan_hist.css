@@ -1,0 +1,42 @@
+.loanHist_main{
+    width: 100%;
+    /* height: 80vh; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 0;
+}
+
+.middle_loanHist{
+    /* background-color: darkslateblue; */
+    background-color: #447c87;
+    border-radius: 30px;
+    padding: 2rem;
+    width: 35rem;
+    
+}
+
+.middle_loanHist h1{
+    font-size: 2.6rem;
+    font-weight: 600;
+    color: #fff;
+
+    margin-bottom: 2rem;
+
+}
+
+
+.inner_loanHist{
+    background-color: #fff;
+    border-radius: 30px;
+    padding: 2rem;
+    /* font-size: 1.2rem; */
+    margin-bottom: 2rem;
+}
+
+.inner_loanHist p{
+    margin-bottom: 1.2rem;
+    font-size: 1.6rem ;
+    font-weight: 600;
+}
+

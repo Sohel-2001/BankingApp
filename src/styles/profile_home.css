@@ -1,0 +1,60 @@
+.profile_main{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrapper{
+    width: 50rem;
+    /* background-color:darkslateblue; */
+    background-color: #447c87;
+    border-radius: 30px;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.user_details{
+    background-color: #fff;
+    padding: 0 1.5rem ;
+    border-radius: 30px;
+    
+}
+
+.user_details h1{
+    margin-bottom: 1.5rem;
+    font-size: 2rem;
+    /* font-weight: 600; */
+}
+
+.user_details h1 span{
+    /* margin-bottom: 1.5rem; */
+    font-size: 1.9rem;
+    font-weight: 600;
+
+    /* font-weight: 400; */
+}
+
+.transaction{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.transaction a{
+    /* height: 3rem;
+    width:9rem ; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 20px;
+    font-weight: 500;
+    /* padding: 1rem; */
+}

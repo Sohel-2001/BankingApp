@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600;700&family=Roboto:wght@300;400;500;700;900&family=Rubik:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.services:hover .content{
+    transform: translateY(0);
+}
+.services:hover img{
+    filter: blur(5px);
+}
+
+.signUp input{
+    width: 24vw;
+    padding: 10px 20px;
+    border-radius: 50px;
+    /* margin-left: 5px; */
+    border: none;
+    outline: none;
+}
+
+.signUp select{
+    width: 17vw;
+    padding: 10px 20px;
+    border-radius: 50px;
+    margin-left: 5px;
+    border: none;
+    outline: none;
+}
+
+.signUp label{
+    font-size: 1.3vw;
+    text-transform: capitalize;
+    margin-left: 6px;
+    color: white;
+}

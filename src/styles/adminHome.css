@@ -1,0 +1,36 @@
+.admin-home{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.admin-home a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.7rem;
+    font-weight: 700;
+    
+}
+
+
+.container{
+    /* background-color: darkslateblue; */
+    background-color: #12343b;
+
+    height: 15rem;
+    width: 19rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    transition: all 0.4s;
+}
+
+.container:hover{
+    background-color: lightskyblue;
+    color: #12343b;
+    border: 2px solid #12343b;
+}

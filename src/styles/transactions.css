@@ -1,0 +1,62 @@
+.transaction_main{
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.add , .debit , .transfer{
+    /* background-color:darkslateblue; */
+    background-color: #447c87;
+
+    height: 14rem;
+    width: 20rem;
+    padding: 0 1.5rem;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+}
+
+.add form div input{
+    height: 3rem;
+    width: 100%;
+    padding: 0 1.2rem;
+    margin-bottom: 1.3rem;
+
+}
+.debit form div input{
+    height: 3rem;
+    width: 100%;
+    padding: 0 1.2rem;
+    margin-bottom: 1.3rem;
+
+}
+.transfer form div input{
+    height: 3rem;
+    width: 100%;
+    padding: 0 1.2rem;
+    margin-bottom: 1.3rem;
+    
+}
+
+.transaction_main button{
+    /* width: 100%; */
+    /* text-align: center; */
+    /* background-color:cornflowerblue; */
+    background-color: #fff;
+    margin-left: 5rem;
+    padding: .4rem 1.4rem;
+    border-radius: 15px;
+    transition: all 0.5s;
+
+}
+
+
+.transaction_main button:hover{
+    background-color: #447c87;
+    color: #fff;
+    border: 2px solid #fff;
+}
+
